@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_trip"
+        android:icon="@drawable/route"
+        android:orderInCategory="100"
+        android:title="我的行程"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_wallet"
+        android:icon="@drawable/wallet"
+        android:orderInCategory="100"
+        android:title="我的钱包"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_guide"
+        android:icon="@drawable/zhinan"
+        android:orderInCategory="100"
+        android:title="使用指南"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/about"
+        android:orderInCategory="100"
+        android:title="关于我们"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/logout"
+        android:orderInCategory="100"
+        android:title="退出登录"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/fukuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="付款成功"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/rechargeTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/fukuan"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/rechargeAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f92e38"
+            android:text=""
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_toLeftOf="@+id/textView5"
+            android:layout_toStartOf="@+id/textView5" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f92e38"
+            android:text="元"
+            android:textSize="20dp"
+            android:layout_alignBottom="@+id/rechargeTime"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="13dp"
+            android:id="@+id/textView5" />
+    </RelativeLayout>
+
+</layout>

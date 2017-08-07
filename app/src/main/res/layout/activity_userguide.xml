@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/userguide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/textuserguide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="使用指南"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_below="@+id/userguide"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/kbls"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/home_click_bg"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="16dp"
+                android:weightSum="1">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="开不了锁"
+                    android:textColor="@color/colorContent"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="0.01"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/forward" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/fxclgz"
+                android:layout_width="match_parent"
+                android:background="@drawable/home_click_bg"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发现车辆故障"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorContent"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/forward" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/yjsm"
+                android:layout_width="match_parent"
+                android:background="@drawable/home_click_bg"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="押金说明"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorContent"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/forward" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/czsm"
+                android:layout_width="match_parent"
+                android:background="@drawable/home_click_bg"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="充值说明"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorContent"
+                    android:textSize="15sp" />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/forward" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/jbwt"
+                android:layout_width="match_parent"
+                android:background="@drawable/home_click_bg"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="举报违停"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorContent"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/forward" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/zbdc"
+                android:layout_width="match_parent"
+                android:background="@drawable/home_click_bg"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="找不到车"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorContent"
+                    android:textSize="15sp" />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/forward" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

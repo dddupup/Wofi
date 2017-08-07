@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/wallet1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/textwallet1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="我的钱包" />
+
+
+        </android.support.v7.widget.Toolbar>
+        <Button
+            android:id="@+id/mingxi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_click_bg"
+            android:paddingRight="10dp"
+            android:text="明细"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/wallet1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout">
+            <TextView
+                android:id="@+id/chefei1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textSize="50sp"
+                android:gravity="center"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/yue1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="车费余额(元)"
+                android:layout_above="@+id/chefei1"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/chongzhi1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                android:background="@color/colorPrimary"
+                android:text="充值"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_above="@+id/linearLayout3"
+                android:layout_centerHorizontal="true" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/linearLayout3"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="押金 " />
+                <TextView
+                    android:id="@+id/yajin1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="199" />
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 元" />
+
+                <Button
+                    android:id="@+id/chongyajin1"
+                    android:layout_width="50dp"
+                    android:layout_height="18dp"
+                    android:background="@null"
+                    android:text="退押金"
+                    android:textColor="#FF0000" />
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

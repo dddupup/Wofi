@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/kaishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="开始时间"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/kaishishijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/jieshushijian"
+            android:layout_alignStart="@+id/jieshushijian" />
+        <TextView
+            android:id="@+id/jieshu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束时间"
+            android:textSize="15dp"
+            android:layout_alignBottom="@+id/journeytime"
+            android:layout_alignLeft="@+id/kaishi"
+            android:layout_alignStart="@+id/kaishi" />
+        <TextView
+            android:id="@+id/jieshushijian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/kaishishijian"
+            android:layout_toRightOf="@+id/jieshu"
+            android:layout_toEndOf="@+id/jieshu"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+
+        <TextView
+            android:id="@+id/journeytime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="行程消费"
+            android:textSize="15dp"
+            android:layout_alignBaseline="@+id/jieshushijian"
+            android:layout_alignBottom="@+id/jieshushijian"
+            android:layout_toLeftOf="@+id/textView5"
+            android:layout_toStartOf="@+id/textView5"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥"
+            android:textColor="#f92e38"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/journeytime"
+            android:layout_alignBottom="@+id/journeytime"
+            android:layout_toLeftOf="@+id/xiaofei"
+            android:layout_toStartOf="@+id/xiaofei" />
+        <TextView
+            android:id="@+id/xiaofei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#f92e38"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</layout>
